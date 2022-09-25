@@ -1,0 +1,144 @@
+/*
+Implementations Skeletor v3 - 5/10/2014
+
+oustyles.css
+
+Add styles to overwrite customer CSS, USE WITH CAUTION.
+
+Contributors: Jeremy Harris
+Last Updated: 02/01/2018
+*/
+
+/*
+ouc\:div[label="maincontent"] { position: relative; }
+a.ou-btn[data-label="maincontent"] {
+	position: absolute;
+    top: -50px;
+	white-space: nowrap;
+    z-index: 2;
+}
+*/
+
+/*
+ouc\:div h3.page-header {
+	display: block !important;
+}
+*/
+
+a.ou-btn[data-label="pre-footer"] {
+	position: relative;
+	text-transform: none;
+	letter-spacing: normal;
+}
+
+div.sub-footer div.ou-justedit-region {
+	min-height: 580px;
+}
+
+#maincontent p a.btn.btn-light-blue {
+	text-decoration: none;
+}
+
+ouc\:div[label="maincontent"] > div[id^="accordion-"] { position: relative; }
+
+ouc\:div[label="maincontent"] > div[id^="accordion-"] .panel-default > .panel-heading .fa { right: 5px; }
+
+ouc\:editor {
+	display: block;
+}
+
+body.site-map #maincontent ul.list-inline li::before {
+    content: '|';
+}
+
+body.site-map #maincontent ul.list-inline li:first-child::before {
+    content: none;
+}
+
+/* added so sub-footer can be placed inside a #maincontent block [START] */
+.sub-footer h3 {
+    font-weight: bold !important;
+    font-size: 75px !important;
+    color: #fff !important;
+    font-family: 'PT Serif', serif !important;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+
+.sub-footer a {
+    text-decoration: none !important;
+    font-size: 18px !important;
+    letter-spacing: 2px !important;
+}
+/* added so sub-footer can be placed inside a #maincontent block [END] */
+
+/* sidebar-footer [START] */
+	.sidebar-footer {
+		padding-right: 15px;
+		padding-bottom: 20px;
+	}
+	.interior-right .sidebar-footer {
+		padding-right: 0;
+		padding-left: 15px;
+		
+	}
+/* sidebar-footer [END] */
+
+ul.slick-dots li {
+	padding: 0 !important;
+}
+
+ul.slick-dots li::before {
+	content: none !important;
+}
+
+ul.thumbnails li::before {
+	content: none !important;
+}
+
+.feature-image h3.caption-title {
+    color: #007FAD;
+    font-size: 16px !important;
+}
+
+.faqs h3,
+.locations h3{
+    font-size: 40px !important;
+    text-align: center !important;
+    color: #3E94B6;
+    font-weight: 700 !important;
+    font-family: 'PT Serif', serif !important;
+    margin: 20px 0;
+}
+
+.faqs hr.divider,
+.locations hr.divider{
+    width: 50px;
+    height: 3px;
+    padding: 0;
+    background: #0d2d62;
+    border: none;
+	margin: 0 auto 40px;;
+}
+
+div.emergency-alert {
+	height: auto;
+}
+div.emergency-alert > p {
+	font-size: 1em;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+/* direct edit css [START] */
+#directedit {
+	text-align: center;
+	font-size: 0.8em;
+}
+#de {
+	color: #fff;
+}
+#de:hover {
+	text-decoration: none;
+}
+/* direct edit css [END] */
